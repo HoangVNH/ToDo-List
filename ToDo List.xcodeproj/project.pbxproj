@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F5DD819C223224F7004993E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD819B223224F7004993E9 /* AppDelegate.swift */; };
-		F5DD819E223224F7004993E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD819D223224F7004993E9 /* ViewController.swift */; };
 		F5DD81A1223224F7004993E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DD819F223224F7004993E9 /* Main.storyboard */; };
 		F5DD81A4223224F7004993E9 /* ToDo_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5DD81A2223224F7004993E9 /* ToDo_List.xcdatamodeld */; };
 		F5DD81A6223224F7004993E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DD81A5223224F7004993E9 /* Assets.xcassets */; };
 		F5DD81A9223224F7004993E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DD81A7223224F7004993E9 /* LaunchScreen.storyboard */; };
+		F5DD81B1223229FC004993E9 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD81B0223229FC004993E9 /* ToDoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F5DD8198223224F7004993E9 /* ToDo List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DD819B223224F7004993E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F5DD819D223224F7004993E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F5DD81A0223224F7004993E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5DD81A3223224F7004993E9 /* ToDo_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDo_List.xcdatamodel; sourceTree = "<group>"; };
 		F5DD81A5223224F7004993E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5DD81A8223224F7004993E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5DD81AA223224F7004993E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5DD81B0223229FC004993E9 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				F5DD819B223224F7004993E9 /* AppDelegate.swift */,
-				F5DD819D223224F7004993E9 /* ViewController.swift */,
+				F5DD81B0223229FC004993E9 /* ToDoTableViewController.swift */,
 				F5DD819F223224F7004993E9 /* Main.storyboard */,
 				F5DD81A5223224F7004993E9 /* Assets.xcassets */,
 				F5DD81A7223224F7004993E9 /* LaunchScreen.storyboard */,
@@ -139,8 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5DD819E223224F7004993E9 /* ViewController.swift in Sources */,
 				F5DD819C223224F7004993E9 /* AppDelegate.swift in Sources */,
+				F5DD81B1223229FC004993E9 /* ToDoTableViewController.swift in Sources */,
 				F5DD81A4223224F7004993E9 /* ToDo_List.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
