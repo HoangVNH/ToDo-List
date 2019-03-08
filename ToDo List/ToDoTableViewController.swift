@@ -32,6 +32,11 @@ class ToDoTableViewController: UITableViewController {
         
         return [eggs, dog, cheese]
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let toDo = toDos[indexPath.row]
+        performSegue(withIdentifier: "moveToComplete", sender: toDo)
+    }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return toDos.count

@@ -15,6 +15,7 @@
 		F5DD81A9223224F7004993E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DD81A7223224F7004993E9 /* LaunchScreen.storyboard */; };
 		F5DD81B1223229FC004993E9 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD81B0223229FC004993E9 /* ToDoTableViewController.swift */; };
 		F5DD81B522322B93004993E9 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD81B422322B93004993E9 /* ToDo.swift */; };
+		F5E3317D223281C70002CDB1 /* CompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3317C223281C70002CDB1 /* CompleteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F5DD81AA223224F7004993E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5DD81B0223229FC004993E9 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		F5DD81B422322B93004993E9 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		F5E3317C223281C70002CDB1 /* CompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				F5DD81B0223229FC004993E9 /* ToDoTableViewController.swift */,
 				F5DD81B422322B93004993E9 /* ToDo.swift */,
 				F5BAD5D222325086001FEA17 /* AddToDoViewController.swift */,
+				F5E3317C223281C70002CDB1 /* CompleteViewController.swift */,
 				F5DD819F223224F7004993E9 /* Main.storyboard */,
 				F5DD81A5223224F7004993E9 /* Assets.xcassets */,
 				F5DD81A7223224F7004993E9 /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 				F5BAD5D322325086001FEA17 /* AddToDoViewController.swift in Sources */,
 				F5DD81A4223224F7004993E9 /* ToDo_List.xcdatamodeld in Sources */,
 				F5DD81B522322B93004993E9 /* ToDo.swift in Sources */,
+				F5E3317D223281C70002CDB1 /* CompleteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

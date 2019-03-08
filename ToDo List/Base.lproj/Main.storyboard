@@ -40,10 +40,53 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="XhX-V7-s2z" kind="show" identifier="moveToComplete" id="PBx-gd-zwI"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qAC-gd-fpQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="425" y="92"/>
+        </scene>
+        <!--Complete View Controller-->
+        <scene sceneID="Mty-fN-1OV">
+            <objects>
+                <viewController id="XhX-V7-s2z" customClass="CompleteViewController" customModule="ToDo_List" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="knM-Yl-RAL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mm8-2e-VRe">
+                                <rect key="frame" x="146" y="84" width="82.5" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBG-NL-Xjv">
+                                <rect key="frame" x="145.5" y="176" width="83" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Complete"/>
+                                <connections>
+                                    <action selector="completeTapped:" destination="XhX-V7-s2z" eventType="touchUpInside" id="J8h-rb-tOm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mm8-2e-VRe" firstAttribute="top" secondItem="KyS-FI-d2C" secondAttribute="top" constant="20" id="Kwr-HK-ghf"/>
+                            <constraint firstItem="JBG-NL-Xjv" firstAttribute="top" secondItem="Mm8-2e-VRe" secondAttribute="bottom" constant="50" id="Y0M-9g-Sgr"/>
+                            <constraint firstItem="Mm8-2e-VRe" firstAttribute="centerX" secondItem="knM-Yl-RAL" secondAttribute="centerX" id="hkT-6e-MBF"/>
+                            <constraint firstItem="JBG-NL-Xjv" firstAttribute="centerX" secondItem="knM-Yl-RAL" secondAttribute="centerX" id="t9V-Ch-62y"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KyS-FI-d2C"/>
+                    </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="Mm8-2e-VRe" id="30x-v3-eKL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HpU-mK-3g2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="424.80000000000001" y="765.96701649175418"/>
         </scene>
         <!--Add To Do View Controller-->
         <scene sceneID="pAS-eO-xXf">
